@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quadrado">
+        <div class="titulo">
+            <h1>PROJETO DE FORMULÁRIO</h1>
+        </div>
+        
+        <form>
+            <div class="nome">
+                <label for="pnome">Nome:</label>
+                <input type="text" id="pnome" name="pnome" required autofocus>
+            </div>
+            
+            <div class="snome">
+                <label for="snome">Sobrenome:</label>
+                <input type="text" id="snome" name="snome" required>
+            </div>
+
+            <div class="nascimento">
+                <label for="nascimento">Data de nascimento</label>
+                <input type="date" name="nascimento" id="nascimento" required>
+            </div>
+            
+            <div class="email">
+                <label for="email">Seu melhor email:</label>
+                <input type="email" id="email" name="email" required>
+                
+            </div>
+            
+            <div class="celular">
+                <label for="celular">N° do celular: </label>
+                <input type="number" id="celular" name="celular" required>
+            </div>
+            
+            <div class="profissao">
+                <label for="profissao">Profissão:</label>
+                <input type="text" id="profissao" name="profissao" required>
+            </div>
+        
+            <div class="estadocivil">
+                <label for="estadocivil">Estado Civil:</label>
+                    <select name="estadocivil" id="estadocivil" required>
+                        <option value="delicado" selected disabled>Selecione</option>
+                        <option value="delicado">Assunto delicado</option>   
+                        <option value="naodeclarar">Não declarar</option>
+                        <option value="casado">Casado(a)</option>
+                        <option value="solteiro">Solteiro(a)</option>
+                        <option value="viúvo">Viúvo(a)</option>
+                </select><br>
+            </div> 
+            
+            <div class="carro">
+                <label for="carro">Marca de carro:</label>
+                    <select selected="none" name="carro" id="carro" required>
+                        <option value="nenhum" selected disabled>Selecione</option>
+                        <option value="volvo">Volvo</option>
+                        <option value="porsche">Porsche</option>
+                        <option value="ferrari">Ferrari</option>
+                        <option value="aston">Aston Martin</option>
+                        <option value="mercedes">Mercedes</option>   
+                    </select>
+            </div>
+            
+            <div class="gostodetitulo">
+                <label for="gostodetitulo">Gosto de:</label>
+            </div>
+
+            <div class="gostode">
+                <input type="radio" name="sair" required>
+                <label for="gostode">sair</label>
+                <input type="radio" name="ficar" required>
+                <label for="gostode">ficar em casa</label>
+            </div>
+
+            <div class="maisativotitulo">
+                <label for="maisativo">Prefiro estudar:</label>
+            </div>
+
+            <div class="maisativo">
+                <input type="checkbox" name="manha">
+                <label for="maisativo">de manhã</label>
+                <input type="checkbox" name="tarde">
+                <label for="maisativo">de tarde</label>
+                <input type="checkbox" name="noite">
+                <label for="maisativo">a noite</label>
+            </div>
+            
+            <div class="sonho">
+                <label for="msonho">Maior sonho:</label><br>
+                <textarea name="msonho" id="msonho" cols="60" rows="10" required>
+                </textarea>
+            </div> 
+            
+            <div class="botao"><br>
+                <button type="submit" id="botao">Enviar</button><br><br>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

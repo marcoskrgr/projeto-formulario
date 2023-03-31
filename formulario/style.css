@@ -1,0 +1,184 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
+
+body{
+    background-image: linear-gradient(to right, #C9EBF2, #D5E7F2); 
+    font-family: 'Oswald', sans-serif;
+}
+
+.titulo{
+    font-size: 22px;
+    text-align: center;
+    color: #0B2624;
+}
+
+.quadrado{
+    line-height: 200%;
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.041), rgba(255, 255, 255, 0.055));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 1px 32px 0 rgba(0, 0, 0, 0.37); 
+    text-align: left;   
+}
+
+.nome{
+    color: #0B2624;
+    font-size: 24px;
+    margin-left: 43%;
+    transform: translate(-37%);
+}
+
+#pnome{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    margin-left: 11%
+}
+
+.snome{
+    font-size: 24px;
+    margin-left: 43%;
+    transform: translate(-37%);
+}
+
+#snome{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    margin-left: 11%
+}
+
+.nascimento{
+    font-size: 24px;
+    margin-left: 43%;
+    transform: translate(-37%);
+}
+
+#nascimento{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    margin-left: 11%
+}
+
+.email{
+    font-size: 24px;
+    margin-left: 43%;
+    transform: translate(-37%);
+}
+
+#email{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    margin-left: 11%
+}
+
+.celular{
+    font-size: 24px;
+    margin-left: 43%;
+    transform: translate(-37%);
+}
+
+#celular{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    margin-left: 11%
+}
+
+.profissao{
+    font-size: 24px;
+    margin-left: 43%;
+    transform: translate(-37%);
+}
+
+#profissao{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    margin-left: 11%
+}
+
+.estadocivil{
+    font-size: 24px;
+    margin-left: 43%;
+    transform: translate(-37%);
+}
+
+#estadocivil{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    margin-left: 11%
+}
+
+.carro{
+    font-size: 24px;
+    margin-left: 43%;
+    transform: translate(-37%);
+}
+
+#carro{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    margin-left: 11%
+}
+
+.gostodetitulo{
+    font-size: 24px;
+    margin-left: 43%;
+    transform: translate(-37%);
+}
+
+.gostode{
+    font-size: 20px;
+    margin-left: 43%;
+    transform: translate(-37%);
+}
+
+.maisativotitulo{
+    font-size: 24px;
+    margin-left: 43%;
+    transform: translate(-37%);
+}
+
+.maisativo{
+    font-size: 20px;
+    margin-left: 43%;
+    transform: translate(-37%);
+}
+
+.sonho{
+    font-size: 24px;
+    margin-left: 43%;
+    transform: translate(-37%);
+}
+
+#msonho{
+    width: 400px;
+    border-radius: 8px;
+}
+
+.botao{
+    text-align: center;
+}
+
+#botao{
+    color: black;
+    font-size: 24px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: #D5E7F2;
+    background: #7EBFB3;
+}
